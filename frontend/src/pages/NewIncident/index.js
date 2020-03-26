@@ -33,7 +33,7 @@ export default function NewIncident() {
 
       history.push("/profile");
     } catch (err) {
-      alert("Erro ao cadastrar caso, tente novamente");
+      alert("Error creating a new case, please try again.");
     }
   }
   return (
